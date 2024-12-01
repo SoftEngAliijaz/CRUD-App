@@ -8,19 +8,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
 
 /* Page Title */
 h1 {
     margin: 20px 0;
     color: #4CAF50;
+    font-size: 2rem;
+    text-align: center;
 }
 
 /* Table Container */
 table {
     border-collapse: collapse;
     width: 100%;
-    max-width: 800px;
     margin: 20px 0;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
