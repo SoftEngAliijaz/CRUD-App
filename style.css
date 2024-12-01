@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page Title */
+h1 {
+    margin: 20px 0;
+    color: #4CAF50;
+}
+
+/* Table Container */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Input Fields */
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Form Buttons */
+.form_action--button {
+    display: flex;
+    gap: 10px;
+}
+
+.form_action--button input {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form_action--button input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.form_action--button input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.form_action--button input[type="reset"] {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.form_action--button input[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+/* List Table */
+table.list {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+table.list thead {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+table.list th,
+table.list td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.list tbody tr:hover {
+    background-color: #f1f1f1;
+}
